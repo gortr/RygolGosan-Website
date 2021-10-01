@@ -32,7 +32,6 @@ import routes
 
 # EOF Application Run Time Code
 if __name__ == '__main__':
-	app.run(host = '0.0.0.0',
-            port = 8000,
-            debug=True,
-            secret_key = 'GP17535HYS01WGMS')
+    app.secret_key = secret_key = 'GP17535HYS01WGMS'
+    app.debug = True
+    app.run(host = '0.0.0.0', port = 8000)

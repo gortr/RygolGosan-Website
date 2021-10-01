@@ -1,6 +1,6 @@
 # RygolGosan Project
 **Author:** Rigoberto Gort
-**Date:** 09/30/2021
+**Date:** 10/01/2021
 
 ## Project Info
 **Filename** 
@@ -13,9 +13,9 @@ README.md
 
 **Connected Backend Files**
 
-`models.py`
-`routes.py`
 `api.py`
+`routes.py`
+`models.py`
 
 **Connected Module Files** 
 
@@ -27,10 +27,10 @@ README.md
 `features.html`
 `gettingstarted.html`
 `header.html`
-`home.html`
+`index.html`
 `login.html`
-`publichome.html`
-`register.html`
+`publicindex.html`
+`signup.html`
 
 **Connected CSS Files** 
 
@@ -52,12 +52,20 @@ Please confirm that you have the following installed on your machine:
 
 - Virtual Box (https://www.virtualbox.org/wiki/Downloads)
 - Python 3 (https://www.python.org/downloads/)
+- Git (https://git-scm.com/)
+
+
+### Python3 Dependencies
+- VirtualEnv (https://docs.python.org/3/library/venv.html)
 - Flask (https://flask.palletsprojects.com/en/1.1.x/)
 - SQLite (https://sqlite.org/index.html)
 - SQLalchemy (https://www.sqlalchemy.org/download.html)
 - WTForms (pip install wtforms[email])
+- WTForms (https://wtforms.readthedocs.io/en/2.3.x/)
 - OAuth2Client (https://pypi.org/project/oauth2client/)
-- Git (https://git-scm.com/)
+- Bcrypt (https://pypi.org/project/bcrypt/)
+- Flask_Login LoginManager (https://flask-login.readthedocs.io/en/latest/)
+
 
 For example, if you are using the standard Python IDLE  (GUI) then you would open the file in that environment. 
 
