@@ -43,7 +43,7 @@ README.md
 ### Configuration Instructions
 `app.py`
 
-This is the primary file required in order to run the EVE Fleet-Up application.
+This is the primary file required in order to run the RygolGosan-Website application.
 
 This file imports the data that was setup in the sitedatabase.db file from database_seeding.py.
 
