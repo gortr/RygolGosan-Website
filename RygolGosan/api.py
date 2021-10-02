@@ -1,5 +1,4 @@
 # Imports Main App & Flask Components for Routing
-from __main__ import app
 from flask import render_template, url_for, request, redirect, flash, jsonify, make_response
 import simplejson as json
 
@@ -10,7 +9,7 @@ import httplib2
 import requests
 
 # Reads the Google details regarding client_id, etc.
-client_id = json.loads(open('client_secrets.json', 'r').read())['web']['client_id']
+#client_id = json.loads(open('client_secrets.json', 'r').read())['web']['client_id']
 application_name = "RygolGosan"
 
 

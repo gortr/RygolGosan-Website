@@ -11,20 +11,30 @@
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
         {% if title %}
-            <title>Fleet-Up - {{ title }}</title>
+            <title>RygolGosan - {{ title }}</title>
         {% else %}
-            <title>Fleet-Up</title>
+            <title>RygolGosan</title>
         {% endif %}
     </head>
     <body>
         <main role="main" class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
             {% block content %}
 		    {% endblock content %}
         </main>
 
         <footer role="footer" class="container">
             <div class="border-top pt-3">
-                <p>EVE Fleet-Up App - Copyright 2020 &copy;</p>
+                <p>RygolGosan App - Copyright 2021 &copy;</p>
             </div>
         </footer>
 

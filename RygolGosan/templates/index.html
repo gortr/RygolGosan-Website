@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col-md-8">
-            <h5>What is Fleet-Up?</h5>
+            <h4>What is RygolGosan?</h4>
             <div class="what-is-fleet-up">
                 <p>Fleet-Up is an online tool for EVE-Online, designed to help corporations & alliances manage their fittings, doctrines, operations and fleets.</p>
                 <p>Fleet-Up makes it really easy for your new and existing members to get in game, in the right ships, at the right time. Import fittings and organize them into 'doctrines'. Users can instantly see which are flyable by their EVE characters and at what skill level. Plan tactical or strategic operations and track fleets. You can even brand it to your own style. <a href="#">Learn more...</a></p>
@@ -15,9 +15,8 @@
                 <h4>News & Updates</h4>
                 <p class="text-muted">
                     {% for post in posts %}
-                    <h1>{{ post.title }}</h1>
-                    <p>By {{ post.author }} on {{ post.date_posted }}</p>
-                    <p>{{ post.content }}</p>
+                        <h5>{{ post.title }}</h5>
+                        <small>By {{ post.author }} on {{ post.date_posted }}</small>
                     {% endfor %}
                 </p>
             </div>
@@ -25,21 +24,30 @@
     </div>
 
     <div class="row">
-        <div class="col-md-12">
-            <h5>How will it help you?</h5>
+        <div class="col-md-8">
+            <h4>How will it help you?</h4>
             <div class="list-who_it_helps">
                 <div class="col-md-3">
                     
                 </div>
                 <div class="col-md-3">
-                    
+                    <p>Testing</p>
                 </div>
                 <div class="col-md-3">
-                    
+                    <p>Testing</p>
                 </div>
-                <div class="col-md-3">
-                    
+                <div class="col-md-2">
+                    <p>Testing</p>
                 </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="content-section">
+                <h4>Downloads</h4>
+                <p class="text-muted">
+                    <h5>StarCraft: BroodWar Raccoon City Map</h5>
+                    <p>Uploaded by Rygol on 10/01/2021</p>
+                </p>
             </div>
         </div>
     </div>
